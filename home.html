@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Docker Online</title>
+    <link rel="icon" type="image/x-icon" href="images/docker.ico"/>
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+            rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">DOCKER ONLINE SERVICE</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#command">Run Command</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Intro-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Docker</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">An open source software platform to create, deploy and
+                    manage virtualized application
+                    containers on a common operating system.</h2>
+                <a class="btn btn-primary" href="#command">Get Started</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--About-->
+<section class="about-section text-center" id="about">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="text-white mb-4">What is Docker?</h2>
+                <p class="text-white-50">Docker is an open platform for developing, shipping, and running
+                    applications.
+                    Docker enables you to separate your applications from your infrastructure so you can deliver
+                    software quickly.
+                    With Docker, you can manage your infrastructure in the same ways you manage your applications.
+                    By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly,
+                    you can significantly reduce the delay between writing code and running it in production.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RunCommand-->
+<section class="command-section" id="command">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+                <i class="far fa-output fa-2x mb-2 text-white"></i>
+                <h2 class="text-white mb-5">[root@localhost~]#</h2>
+                <input class="form-control flex-fill me-0 me-sm-2 mb-3 mb-sm-0" id="inp"
+                       placeholder="ENTER DOCKER COMMAND..."/>
+                <br>
+                <button class="btn btn-primary" onclick="lw()">RUN</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Output-->
+<section class="contact-section bg-black">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 align-content-center">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-output text-primary mb-2"></i>
+                        <h3 class="text-uppercase m-0">OUTPUT</h3>
+                        <pre>
+							<p id="d1" style="color: black; font-size: 20px;"></p>
+                        </pre>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="social d-flex  justify-content-center" style="text-align: center;">
+            <a class="mx-2" href="https://www.linkedin.com/in/deepanshu-bhalla-284344196/"><i
+                    class="fab fa-linkedin"></i></a>
+            <a class="mx-2" href="https://github.com/Deepanshu-bhalla"><i class="fab fa-github"></i></a>
+            <a class="mx-2" href="https://www.instagram.com/deepanshu0612/"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50">
+    <div class="container px-4 px-lg-5">Copyright 2021 &copy; by Deepanshu Bhalla</div>
+    <br>
+    <div class="container px-4 px-lg-5">Built with HTML, CSS and JavaScript</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
