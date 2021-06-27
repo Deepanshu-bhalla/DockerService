@@ -58,8 +58,3 @@ function lw() {
         document.getElementById("d1").innerHTML = output;
     }
 }
-6
-
-function hello(){
-    alert("hello");
-}
