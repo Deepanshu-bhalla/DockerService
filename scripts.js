@@ -49,7 +49,7 @@ window.addEventListener('DOMContentLoaded', () => {
 function lw() {
     let i = document.getElementById("inp").value
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://192.168.101.4/cgi-bin/ajx.py?x=" + i, true)
+    xhr.open("GET", "http://192.168.29.199/cgi-bin/docker.py?x=" + i, true)
     xhr.send();
 
     // output
